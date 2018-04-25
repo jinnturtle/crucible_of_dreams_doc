@@ -1,13 +1,14 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="crucible_of_dreams" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1521471162814"><hook NAME="MapStyle">
+<node TEXT="crucible_of_dreams" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1524641906824"><hook NAME="MapStyle">
     <properties show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" FORMAT_AS_HYPERLINK="false">
 <font NAME="Ubuntu" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" WIDTH="1"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
@@ -29,6 +30,18 @@
 <stylenode LOCALIZED_TEXT="styles.important" BACKGROUND_COLOR="#ffffff">
 <icon BUILTIN="yes"/>
 <edge COLOR="#cc0000"/>
+</stylenode>
+<stylenode TEXT="coding_root" STYLE="fork">
+<edge STYLE="sharp_bezier" COLOR="#0000a0" WIDTH="2"/>
+</stylenode>
+<stylenode TEXT="concepts_root" STYLE="fork">
+<edge STYLE="sharp_bezier" COLOR="#006000" WIDTH="2"/>
+</stylenode>
+<stylenode TEXT="research_root" STYLE="fork">
+<edge STYLE="sharp_bezier" COLOR="#0080b0" WIDTH="2"/>
+</stylenode>
+<stylenode TEXT="management_root" STYLE="fork">
+<edge STYLE="sharp_bezier" COLOR="#800080" WIDTH="2"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
@@ -52,12 +65,156 @@
 </map_styles>
 </hook>
 <font NAME="Ubuntu"/>
-<node TEXT="project management" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_1310023025" CREATED="1522506889089" MODIFIED="1524300272799">
+<node TEXT="project management" STYLE_REF="management_root" POSITION="left" ID="ID_1310023025" CREATED="1522506889089" MODIFIED="1524643403152">
+<node TEXT="sprint themes" ID="ID_1509973096" CREATED="1524665586795" MODIFIED="1524668116104"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      these should be disitributed throughout sprints
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="active" ID="ID_569861627" CREATED="1524665829868" MODIFIED="1524668024358"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      try to limit to 5
+    </p>
+    <p>
+      currently recurring themes (at least one in four sprints)<br/>the progress marker should indicate how far exhausted is the theme for the time being, indicating how soon it will return to the &quot;pending&quot; section
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="research" ID="ID_621149523" CREATED="1524667496791" MODIFIED="1524668075506">
+<font BOLD="false" ITALIC="true"/>
+<node TEXT="tabletop RPG systems" ID="ID_1824408569" CREATED="1524667413903" MODIFIED="1524667424612"/>
+<node TEXT="CRPG games" ID="ID_598675218" CREATED="1524667452247" MODIFIED="1524667458460"/>
+</node>
+<node TEXT="plan crucible game system" ID="ID_42302094" CREATED="1524665634003" MODIFIED="1524665658560"/>
+<node TEXT="project management - planning" ID="ID_1295585969" CREATED="1524665789132" MODIFIED="1524665959096">
+<icon BUILTIN="75%"/>
+</node>
+</node>
+<node TEXT="pending" ID="ID_1552542397" CREATED="1524665841956" MODIFIED="1524667854523"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      all push themes that are not active
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="graphics" ID="ID_1568149516" CREATED="1524665907380" MODIFIED="1524668082401">
+<font BOLD="false" ITALIC="true"/>
+<node TEXT="GUI graphics" ID="ID_190455808" CREATED="1524665860156" MODIFIED="1524665871641"/>
+<node TEXT="tile graphics" ID="ID_1343314797" CREATED="1524665872108" MODIFIED="1524665880136"/>
+<node TEXT="character graphics" ID="ID_742306155" CREATED="1524665880540" MODIFIED="1524665884224"/>
+<node TEXT="item graphics" ID="ID_1955170255" CREATED="1524665884660" MODIFIED="1524665893447"/>
+<node TEXT="map element graphics" ID="ID_1247659187" CREATED="1524665893884" MODIFIED="1524665904824"/>
+</node>
+<node TEXT="planning" ID="ID_849381566" CREATED="1524667564023" MODIFIED="1524668082403">
+<font BOLD="false" ITALIC="true"/>
+<node TEXT="magic system" ID="ID_1562392765" CREATED="1524667575264" MODIFIED="1524667589172"/>
+<node TEXT="skill system" ID="ID_119713244" CREATED="1524667595896" MODIFIED="1524667600764"/>
+</node>
+<node TEXT="coding" ID="ID_393370782" CREATED="1524665978668" MODIFIED="1524668082403">
+<font BOLD="false" ITALIC="true"/>
+<node TEXT="game engine" ID="ID_166113074" CREATED="1524665981588" MODIFIED="1524665992361"/>
+<node TEXT="gameplay mechanics" ID="ID_1733579797" CREATED="1524665992693" MODIFIED="1524666001656"/>
+</node>
+<node TEXT="setting" ID="ID_5995745" CREATED="1524666015252" MODIFIED="1524668082404">
+<font BOLD="false" ITALIC="true"/>
+<node TEXT="universe" ID="ID_1815102805" CREATED="1524666026940" MODIFIED="1524666036289"/>
+<node TEXT="story" ID="ID_455890000" CREATED="1524666036585" MODIFIED="1524666039433"/>
+</node>
+<node TEXT="research" ID="ID_1986523930" CREATED="1524667409599" MODIFIED="1524668082405">
+<font BOLD="false" ITALIC="true"/>
+<node TEXT="fictional universes/settings" ID="ID_1493696440" CREATED="1524667427287" MODIFIED="1524667445388"/>
+</node>
+</node>
+</node>
 <node TEXT="tasks" ID="ID_1909777044" CREATED="1523898800197" MODIFIED="1523898820486">
-<node TEXT="backlog" ID="ID_1011090692" CREATED="1524298617489" MODIFIED="1524298634317"/>
-<node TEXT="todo" ID="ID_1702525652" CREATED="1524298634943" MODIFIED="1524298638024">
-<node TEXT="remove old open repo" ID="ID_621617574" CREATED="1523261501707" MODIFIED="1523261511515"/>
-<node TEXT="think on additional backup means" ID="ID_850386282" CREATED="1522506937312" MODIFIED="1522508142545"><richcontent TYPE="NOTE">
+<node TEXT="backlog" ID="ID_1011090692" CREATED="1524298617489" MODIFIED="1524668693989"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      all the things that need to be done
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="prioritise research, move all else to research - backlog" ID="ID_510352765" CREATED="1524666627318" MODIFIED="1524666688230"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      aim for 200h tops
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="next" ID="ID_1111308113" CREATED="1524668167521" MODIFIED="1524668678002"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      these should get to a sprint as soon as possible
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="sprints" ID="ID_1865033773" CREATED="1524665714316" MODIFIED="1524665717056">
+<node TEXT="active" ID="ID_1897399192" CREATED="1524665722884" MODIFIED="1524665724111">
+<node TEXT="sprint 1 [1/15h]" ID="ID_625256325" CREATED="1524664553785" MODIFIED="1524669102618">
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1525618680284" PERIOD="1" UNIT="DAY"/>
+</hook>
+<node TEXT="progress through Balsdur&apos;s Gate [0/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1524666105265"/>
+<node TEXT="read d&amp;d 4 player&apos;s handbook [0/8h]" ID="ID_491025055" CREATED="1524665277507" MODIFIED="1524668436718"/>
+<node TEXT="read Might &amp; Magic 2 LP [1/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1524668496966"/>
+</node>
+</node>
+<node TEXT="todo" ID="ID_724932820" CREATED="1524665721292" MODIFIED="1524665722568">
+<node TEXT="sprint 2 [0/15h]" ID="ID_1080777006" CREATED="1524664560129" MODIFIED="1524668389830">
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1526223480284" PERIOD="1" UNIT="DAY"/>
+</hook>
+<node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_571828804" CREATED="1524665265259" MODIFIED="1524666094793"/>
+<node TEXT="think on additional backup means [0/2h]" ID="ID_850386282" CREATED="1522506937312" MODIFIED="1524668241333"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -77,11 +234,26 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="read Might &amp; Magic 2 LP [0/2h]" ID="ID_854419676" CREATED="1524668512530" MODIFIED="1524668519190"/>
+<node TEXT="coding - the playground [0/5h]" ID="ID_288402322" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
-<node TEXT="in progress" ID="ID_431900866" CREATED="1524298638614" MODIFIED="1524298640953">
-<node TEXT="lay out a rough roadmap with milestones with dates" ID="ID_1414516550" CREATED="1522508291963" MODIFIED="1522508326071"/>
+<node TEXT="sprint 3 [0/15h]" ID="ID_541386858" CREATED="1524664563201" MODIFIED="1524668393390">
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1526828280284" PERIOD="1" UNIT="DAY"/>
+</hook>
+<node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_470946615" CREATED="1524665267603" MODIFIED="1524666098449"/>
+<node TEXT="coding - the playground [0/5h]" ID="ID_602521070" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
-<node TEXT="done" ID="ID_232780383" CREATED="1524300395577" MODIFIED="1524300397148">
+<node TEXT="sprint 4 [0/15h]" ID="ID_466675227" CREATED="1524664565489" MODIFIED="1524668398381">
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1527433080284" PERIOD="1" UNIT="DAY"/>
+</hook>
+<node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_1631854484" CREATED="1524665269947" MODIFIED="1524666101633"/>
+<node TEXT="coding - the playground [0/5h]" ID="ID_1583122815" CREATED="1524668540890" MODIFIED="1524669482313"/>
+</node>
+</node>
+<node TEXT="done" ID="ID_610293152" CREATED="1524665724356" MODIFIED="1524665725176">
+<node TEXT="sprint 0" ID="ID_219214098" CREATED="1524668601354" MODIFIED="1524668603478">
 <node TEXT="move to a closed repo" LOCALIZED_STYLE_REF="default" ID="ID_851671823" CREATED="1522506896592" MODIFIED="1524300300883">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -129,6 +301,46 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="remove old open repo" ID="ID_621617574" CREATED="1523261501707" MODIFIED="1524662455893">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="think of a work-plan" ID="ID_315264647" CREATED="1524663094830" MODIFIED="1524666886383">
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      * maybe do a weekly plan for some 10-20 weeks ahead
+    </p>
+    <p>
+      <b>* or compose limited time sprints in the backlog</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      make sure to scatter research-&gt;games, research-&gt;settings, coding, etc.. into sprints concentrated enough to actually achieve something in time given, but also avoid several same-themed sprints in a row, as the ammount of work in all sections is massive and we do not want to get bogged down by one type of task for a year (ideally, not longer than one month), e.g. if I would do nothing else untill the research is done it would take me a couple of years of that only - some of the research topics will most likely be skipped as there is not enough time before the release date of 2021-01-01
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="lay out a rough roadmap with milestones with dates" ID="ID_1414516550" CREATED="1522508291963" MODIFIED="1524669056307">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="releases / tags" ID="ID_1616362263" CREATED="1524298642855" MODIFIED="1524305060666">
 <node TEXT="v0.0.1 (2018-xx-xx)" ID="ID_1408200913" CREATED="1524298647672" MODIFIED="1524298706646"/>
@@ -136,16 +348,14 @@
 <node TEXT="v0.0.3 (2018-xx-xx)" ID="ID_47341632" CREATED="1524298663071" MODIFIED="1524298719494"/>
 <node TEXT="..." ID="ID_545351620" CREATED="1524298667687" MODIFIED="1524298668937"/>
 </node>
-</node>
 <node TEXT="roadmap" ID="ID_1643727211" CREATED="1523898821261" MODIFIED="1523898823450">
-<node TEXT="initial research" ID="ID_875046253" CREATED="1523898825069" MODIFIED="1524298970558">
+<node TEXT="research" ID="ID_875046253" CREATED="1523898825069" MODIFIED="1524666375963">
 <icon BUILTIN="0%"/>
-<hook URI="freeplaneresource:/images/svg/Progress_tenth_01.svg" SIZE="1.0" NAME="ExternalObject"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1749869023" STARTINCLINATION="718;0;" ENDINCLINATION="718;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="few levels for playground/testing" ID="ID_642468326" CREATED="1523898951219" MODIFIED="1523899118885">
 <icon BUILTIN="0%"/>
 <hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="game ruleset" ID="ID_1595310480" CREATED="1523898840586" MODIFIED="1524298897193">
+<node TEXT="game ruleset" ID="ID_1595310480" CREATED="1523898840586" MODIFIED="1524647538752">
 <icon BUILTIN="0%"/>
 <richcontent TYPE="DETAILS">
 
@@ -167,6 +377,39 @@
 </html>
 </richcontent>
 <hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="alpha 1.0" ID="ID_1610521208" CREATED="1524663504840" MODIFIED="1524669041382">
+<icon BUILTIN="0%"/>
+<icon BUILTIN="pencil"/>
+<hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1546356480000" PERIOD="1" UNIT="DAY"/>
+</hook>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      research - 80%
+    </p>
+    <p>
+      playground - 100%
+    </p>
+    <p>
+      game rules planned - 80%
+    </p>
+    <p>
+      skill system - 30%
+    </p>
+    <p>
+      magic system - 30%
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="GUI" ID="ID_51349897" CREATED="1523898991811" MODIFIED="1524299640170">
 <icon BUILTIN="0%"/>
 <hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
@@ -177,12 +420,67 @@
 <node TEXT="story" ID="ID_34138742" CREATED="1523899470224" MODIFIED="1523899495490">
 <icon BUILTIN="0%"/>
 <hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="beta 1.0" ID="ID_430515170" CREATED="1524663600823" MODIFIED="1524668722194">
+<icon BUILTIN="0%"/>
+<icon BUILTIN="pencil"/>
+<hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1577892480000" PERIOD="1" UNIT="DAY"/>
+</hook>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GUI - 50%
+    </p>
+    <p>
+      story - 30%
+    </p>
+    <p>
+      setting - 60%
+    </p>
+    <p>
+      game rules planned - 100%
+    </p>
+    <p>
+      game rules implemented - 30%
+    </p>
+    <p>
+      research - 100%
+    </p>
+    <p>
+      magic system - 50%
+    </p>
+    <p>
+      skill system - 50%
+    </p>
+    <p>
+      general movement mechanics - 80%
+    </p>
+    <p>
+      combat mechanics - 10%
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="graphics" ID="ID_924207292" CREATED="1524300040540" MODIFIED="1524300052855">
 <icon BUILTIN="0%"/>
 <hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="sound" ID="ID_1787631317" CREATED="1524299031395" MODIFIED="1524299399830">
 <icon BUILTIN="0%"/>
 <hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="release 1.0" ID="ID_497551002" CREATED="1524663611279" MODIFIED="1524668728231">
+<icon BUILTIN="0%"/>
+<icon BUILTIN="pencil"/>
+<hook URI="freeplaneresource:/images/svg/Progress_tenth_00.svg" SIZE="1.0" NAME="ExternalObject"/>
+<hook NAME="plugins/TimeManagementReminder.xml">
+    <Parameters REMINDUSERAT="1609514880000" PERIOD="1" UNIT="DAY"/>
+</hook>
 </node>
 </node>
 </node>
@@ -193,17 +491,33 @@
 </node>
 </node>
 </node>
-<node TEXT="GUI" POSITION="right" ID="ID_645972176" CREATED="1521199856441" MODIFIED="1521471303747">
-<edge COLOR="#000099"/>
-<node TEXT="GUI tooklit" ID="ID_1390755594" CREATED="1522505112172" MODIFIED="1524304638669">
-<node TEXT="button" ID="ID_1887095688" CREATED="1522505200331" MODIFIED="1522505209304"/>
-<node TEXT="text box" ID="ID_222898649" CREATED="1524304650877" MODIFIED="1524304653463"/>
-<node TEXT="scrollable list" ID="ID_371880663" CREATED="1522505209619" MODIFIED="1522505215520"/>
-<node TEXT="button menu" ID="ID_476590784" CREATED="1522505222491" MODIFIED="1522505227695"/>
-<node TEXT="tick box" ID="ID_1483449338" CREATED="1522505232227" MODIFIED="1522505240024"/>
-<node TEXT="element grouping / relative linkage" ID="ID_381901278" CREATED="1524304671690" MODIFIED="1524304685422"/>
 </node>
-<node TEXT="main game screen" ID="ID_1378555589" CREATED="1521201067961" MODIFIED="1522505075881">
+</node>
+</node>
+<node TEXT="GUI" STYLE_REF="coding_root" POSITION="right" ID="ID_645972176" CREATED="1521199856441" MODIFIED="1524642183977" VSHIFT="-10">
+<node TEXT="GUI tooklit" ID="ID_1390755594" CREATED="1522505112172" MODIFIED="1524641948191">
+<edge STYLE="bezier" WIDTH="1"/>
+<node TEXT="button" ID="ID_1887095688" CREATED="1522505200331" MODIFIED="1524641948196">
+<edge STYLE="bezier" WIDTH="1"/>
+</node>
+<node TEXT="text box" ID="ID_222898649" CREATED="1524304650877" MODIFIED="1524641948196">
+<edge STYLE="bezier" WIDTH="1"/>
+</node>
+<node TEXT="scrollable list" ID="ID_371880663" CREATED="1522505209619" MODIFIED="1524641948196">
+<edge STYLE="bezier" WIDTH="1"/>
+</node>
+<node TEXT="button menu" ID="ID_476590784" CREATED="1522505222491" MODIFIED="1524641948196">
+<edge STYLE="bezier" WIDTH="1"/>
+</node>
+<node TEXT="tick box" ID="ID_1483449338" CREATED="1522505232227" MODIFIED="1524641948196">
+<edge STYLE="bezier" WIDTH="1"/>
+</node>
+<node TEXT="element grouping / relative linkage" ID="ID_381901278" CREATED="1524304671690" MODIFIED="1524641948196">
+<edge STYLE="bezier" WIDTH="1"/>
+</node>
+</node>
+<node TEXT="main game screen" ID="ID_1378555589" CREATED="1521201067961" MODIFIED="1524641948195">
+<edge STYLE="bezier" WIDTH="1"/>
 <node TEXT="game_text_log" ID="ID_1148108455" CREATED="1521199882916" MODIFIED="1521200958291"><richcontent TYPE="NOTE">
 
 <html>
@@ -263,15 +577,17 @@
 <node TEXT="direction of north" ID="ID_563071002" CREATED="1521201090113" MODIFIED="1521201123420"/>
 <node TEXT="? date year/month/day" ID="ID_1172604771" CREATED="1521206724946" MODIFIED="1521206749579"/>
 </node>
-<node TEXT="general info tabs" ID="ID_1066520524" CREATED="1524304921643" MODIFIED="1524304954147">
+<node TEXT="general info tabs" ID="ID_1066520524" CREATED="1524304921643" MODIFIED="1524641948195">
+<edge STYLE="bezier" WIDTH="1"/>
 <node TEXT="inventory window" ID="ID_1483204129" CREATED="1522505268715" MODIFIED="1522505280503"/>
 <node TEXT="spellbook" ID="ID_1400094240" CREATED="1524304833092" MODIFIED="1524304835467"/>
 <node TEXT="character sheet" ID="ID_412645833" CREATED="1524304839635" MODIFIED="1524304848491"/>
 </node>
-<node TEXT="main menu" ID="ID_1816847510" CREATED="1522505078187" MODIFIED="1522505089984"/>
+<node TEXT="main menu" ID="ID_1816847510" CREATED="1522505078187" MODIFIED="1524641948195">
+<edge STYLE="bezier" WIDTH="1"/>
 </node>
-<node TEXT="gameplay" POSITION="right" ID="ID_1493560594" CREATED="1521199867552" MODIFIED="1521471272603">
-<edge COLOR="#000099"/>
+</node>
+<node TEXT="gameplay" STYLE_REF="coding_root" POSITION="right" ID="ID_1493560594" CREATED="1521199867552" MODIFIED="1524642828785">
 <node TEXT="flow of time" ID="ID_876211035" CREATED="1521206831757" MODIFIED="1522505458793">
 <node TEXT="time of day" ID="ID_305659650" CREATED="1522505524018" MODIFIED="1522505527670">
 <node TEXT="creatures of the night" ID="ID_272247280" CREATED="1521449335655" MODIFIED="1521449342391"/>
@@ -327,7 +643,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="rules system" ID="ID_1371799708" CREATED="1521448693769" MODIFIED="1522505867767">
@@ -367,17 +682,15 @@
 <node TEXT="unseen/hidden areas" ID="ID_1895349804" CREATED="1522509387864" MODIFIED="1522509448893"/>
 <node TEXT="line of sight" ID="ID_185159235" CREATED="1522509449711" MODIFIED="1524305334494"/>
 </node>
-<node TEXT="graphics" POSITION="right" ID="ID_414721570" CREATED="1522505130771" MODIFIED="1522506848774">
-<edge COLOR="#000099"/>
+<node TEXT="graphics" STYLE_REF="concepts_root" POSITION="right" ID="ID_414721570" CREATED="1522505130771" MODIFIED="1524643219872">
 <node TEXT="GUI" ID="ID_143614907" CREATED="1522505157907" MODIFIED="1522505190183"/>
 <node TEXT="tile" ID="ID_1240829521" CREATED="1524304977868" MODIFIED="1524304980785"/>
 <node TEXT="characters" ID="ID_76325938" CREATED="1524304981009" MODIFIED="1524304986417"/>
 <node TEXT="glyphs / typefaces" ID="ID_399381904" CREATED="1524304993498" MODIFIED="1524305012682"/>
 </node>
-<node TEXT="gameworld" POSITION="right" ID="ID_1428979350" CREATED="1523900431091" MODIFIED="1523901453379">
-<edge COLOR="#0000cc"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1895058731" STARTINCLINATION="608;0;" ENDINCLINATION="608;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="places" ID="ID_972821133" CREATED="1523899762743" MODIFIED="1523900070584">
+<node TEXT="gameworld" STYLE_REF="concepts_root" POSITION="right" ID="ID_1428979350" CREATED="1523900431091" MODIFIED="1524647520980">
+<node TEXT="places" ID="ID_972821133" CREATED="1523899762743" MODIFIED="1524669607478">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="Ubuntu" DESTINATION="ID_28499787" STARTINCLINATION="161;0;" ENDINCLINATION="161;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="sky ruler city" ID="ID_1910882644" CREATED="1523899786943" MODIFIED="1523899817153"/>
 <node TEXT="overworld" ID="ID_1158081633" CREATED="1523899769559" MODIFIED="1523899773798">
 <node TEXT="the chasm" ID="ID_965260102" CREATED="1523899832503" MODIFIED="1523899841507"/>
@@ -390,6 +703,19 @@
 <node TEXT="shallows" ID="ID_1372906651" CREATED="1523899899393" MODIFIED="1523899970523"/>
 <node TEXT="the depths" ID="ID_241610251" CREATED="1523899947182" MODIFIED="1523899960302"/>
 <node TEXT="fey-dark" ID="ID_1283609369" CREATED="1523900040473" MODIFIED="1523900047344"/>
+</node>
+</node>
+<node TEXT="creatures" ID="ID_28499787" CREATED="1524667621704" MODIFIED="1524667627060">
+<node TEXT="intelligent" ID="ID_968754871" CREATED="1524667711048" MODIFIED="1524667716852"/>
+<node TEXT="less intelligent" ID="ID_18242103" CREATED="1524667717240" MODIFIED="1524667728661">
+<node TEXT="neutral" ID="ID_1976096510" CREATED="1524667642775" MODIFIED="1524667663516"/>
+<node TEXT="predator" ID="ID_1679860613" CREATED="1524667665272" MODIFIED="1524667673404"/>
+<node TEXT="exotic" ID="ID_1187176427" CREATED="1524667769920" MODIFIED="1524667771683"/>
+</node>
+<node TEXT="feral" ID="ID_309214817" CREATED="1524667729936" MODIFIED="1524667733724">
+<node TEXT="neutral" ID="ID_72246629" CREATED="1524667642775" MODIFIED="1524667663516"/>
+<node TEXT="predator" ID="ID_1848588786" CREATED="1524667665272" MODIFIED="1524667673404"/>
+<node TEXT="exotic" ID="ID_287824215" CREATED="1524667769920" MODIFIED="1524667771683"/>
 </node>
 </node>
 <node TEXT="story" ID="ID_863943016" CREATED="1524299862590" MODIFIED="1524299866318">
@@ -405,8 +731,7 @@
 <node TEXT="side quests" ID="ID_952199190" CREATED="1524299874477" MODIFIED="1524299876988"/>
 </node>
 </node>
-<node TEXT="do reasearch" POSITION="right" ID="ID_1749869023" CREATED="1521448763958" MODIFIED="1523901432106">
-<edge COLOR="#000099"/>
+<node TEXT="do reasearch" STYLE_REF="research_root" POSITION="right" ID="ID_1749869023" CREATED="1521448763958" MODIFIED="1524643359281">
 <node TEXT="explore existing systems" ID="ID_849925476" CREATED="1521448784790" MODIFIED="1522508380354">
 <icon BUILTIN="0%"/>
 <richcontent TYPE="NOTE">
@@ -425,24 +750,27 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="D&amp;D 3.5" ID="ID_1919898356" CREATED="1521448812903" MODIFIED="1521805095125">
+<node TEXT="D&amp;D 4 [10h]" ID="ID_779817176" CREATED="1524647819525" MODIFIED="1524665112402">
+<icon BUILTIN="0%"/>
+</node>
+<node TEXT="D&amp;D 3.5 [30h]" ID="ID_1919898356" CREATED="1521448812903" MODIFIED="1524647675178">
 <icon BUILTIN="0%"/>
 <node TEXT="read Player&apos;s Handbook" ID="ID_1892262281" CREATED="1521467443625" MODIFIED="1521467489755"/>
 <node TEXT="read Dungeon Master&apos;s Guide" ID="ID_94621070" CREATED="1521467468873" MODIFIED="1521467484531"/>
 <node TEXT="quick-read Bestiary" ID="ID_1960533558" CREATED="1521467491292" MODIFIED="1521467514634"/>
 </node>
-<node TEXT="Pathfinder" ID="ID_1171696939" CREATED="1521448819711" MODIFIED="1521448837114">
+<node TEXT="Pathfinder [30h]" ID="ID_1171696939" CREATED="1521448819711" MODIFIED="1524647747170">
 <node TEXT="which books?" ID="ID_497556857" CREATED="1521467458617" MODIFIED="1521467467114"/>
 </node>
-<node TEXT="GURPS" ID="ID_856530492" CREATED="1521448826076" MODIFIED="1521448830808">
+<node TEXT="GURPS [20h]" ID="ID_856530492" CREATED="1521448826076" MODIFIED="1524647753234">
 <node TEXT="Basic Set - Player&apos;s" ID="ID_211063941" CREATED="1521467535403" MODIFIED="1521467542148"/>
 <node TEXT="Basic Set - Game Master&apos;s" ID="ID_287804088" CREATED="1521467542625" MODIFIED="1521467551768"/>
 <node TEXT="see some adventures, bestieries, etc" ID="ID_912299832" CREATED="1521467555361" MODIFIED="1521467562617"/>
 </node>
-<node TEXT="Shadowrun" ID="ID_227175650" CREATED="1521448850255" MODIFIED="1521449073330">
+<node TEXT="Shadowrun [30h]" ID="ID_227175650" CREATED="1521448850255" MODIFIED="1524647759363">
 <node TEXT="at least the core books" ID="ID_541859331" CREATED="1521467571094" MODIFIED="1521467581855"/>
 </node>
-<node TEXT="World of Darkness" ID="ID_159223578" CREATED="1521448873694" MODIFIED="1521449079480">
+<node TEXT="World of Darkness [30h]" ID="ID_159223578" CREATED="1521448873694" MODIFIED="1524647763890">
 <node TEXT="core books" ID="ID_1567856304" CREATED="1521467597889" MODIFIED="1521467602849"/>
 <node TEXT="Vampire" ID="ID_1682063748" CREATED="1521467585337" MODIFIED="1521467590173"/>
 <node TEXT="Warewolf" ID="ID_520073077" CREATED="1521467591256" MODIFIED="1521467594008"/>
@@ -461,41 +789,42 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Forgotten Realms" ID="ID_558931714" CREATED="1521449064199" MODIFIED="1521449070023"/>
-<node TEXT="Pathfinder" ID="ID_1112717590" CREATED="1521449099055" MODIFIED="1521449103305"/>
-<node TEXT="various GURPS supplements" ID="ID_375316873" CREATED="1521449117471" MODIFIED="1521449125131"/>
-<node TEXT="Age of Wonders" ID="ID_1443362594" CREATED="1521449269688" MODIFIED="1521449284831"/>
-<node TEXT="Might &amp; Magic" ID="ID_1089736958" CREATED="1521449285448" MODIFIED="1521449292903"/>
-<node TEXT="Warhammer" ID="ID_1237295089" CREATED="1521449441179" MODIFIED="1521449444248"/>
-<node TEXT="J.R.R. Tolkien" ID="ID_1376832315" CREATED="1521449464175" MODIFIED="1521449470144"/>
-<node TEXT="Warcraft" ID="ID_871000821" CREATED="1521449444840" MODIFIED="1521449448489"/>
-<node TEXT="Planescape" ID="ID_108709875" CREATED="1521449091607" MODIFIED="1521449094388"/>
-<node TEXT="Shadowrun" ID="ID_1635537742" CREATED="1521449113431" MODIFIED="1521449116383"/>
-<node TEXT="World of Darkness" ID="ID_703806060" CREATED="1521449222575" MODIFIED="1521449241839"/>
+<node TEXT="Forgotten Realms [1/20h]" ID="ID_558931714" CREATED="1521449064199" MODIFIED="1524664017836"/>
+<node TEXT="Pathfinder (do they make settings of their own?)" ID="ID_1112717590" CREATED="1521449099055" MODIFIED="1524664132421"/>
+<node TEXT="various GURPS supplements [0/30h]" ID="ID_375316873" CREATED="1521449117471" MODIFIED="1524662908811"/>
+<node TEXT="Age of Wonders [0/5h]" ID="ID_1443362594" CREATED="1521449269688" MODIFIED="1524662914538"/>
+<node TEXT="Might &amp; Magic [0/15h]" ID="ID_1089736958" CREATED="1521449285448" MODIFIED="1524662922482"/>
+<node TEXT="Warhammer [0/20h]" ID="ID_1237295089" CREATED="1521449441179" MODIFIED="1524662931786"/>
+<node TEXT="J.R.R. Tolkien [0/20h]" ID="ID_1376832315" CREATED="1521449464175" MODIFIED="1524662946130"/>
+<node TEXT="Warcraft [0/15h]" ID="ID_871000821" CREATED="1521449444840" MODIFIED="1524662953546"/>
+<node TEXT="Planescape [0/10h]" ID="ID_108709875" CREATED="1521449091607" MODIFIED="1524662961666"/>
+<node TEXT="Shadowrun [0/20h]" ID="ID_1635537742" CREATED="1521449113431" MODIFIED="1524662975682"/>
+<node TEXT="World of Darkness [0/40h]" ID="ID_703806060" CREATED="1521449222575" MODIFIED="1524662981530"/>
 </node>
 <node TEXT="play/look at games" ID="ID_684576517" CREATED="1521449509728" MODIFIED="1522508368557">
 <icon BUILTIN="0%"/>
-<node TEXT="classic RPGs [23/500h]" ID="ID_1000386887" CREATED="1521467187736" MODIFIED="1523261203293">
+<node TEXT="classic RPGs [23/500h]" ID="ID_1000386887" CREATED="1521467187736" MODIFIED="1524663911274">
 <icon BUILTIN="0%"/>
-<node TEXT="Baldur&apos;s Gate (playthrough)" ID="ID_1130777398" CREATED="1521449552632" MODIFIED="1522506690650">
+<icon BUILTIN="full-1"/>
+<node TEXT="Baldur&apos;s Gate (playthrough) [8/60h]" ID="ID_1130777398" CREATED="1521449552632" MODIFIED="1524654881665">
 <icon BUILTIN="0%"/>
 <hook NAME="plugins/TimeManagementReminder.xml">
     <Parameters REMINDUSERAT="1527949680000" PERIOD="1" UNIT="DAY"/>
 </hook>
 </node>
-<node TEXT="Baldur&apos;s Gate 2 (playthrough)" ID="ID_1479338201" CREATED="1521464874603" MODIFIED="1522503920249"/>
-<node TEXT="Icewind Dale 1 (playthrough)" ID="ID_1187137767" CREATED="1521449560192" MODIFIED="1522503925296"/>
-<node TEXT="Icewind Dale 2 (playthrough)" ID="ID_1021522075" CREATED="1521464904971" MODIFIED="1522503929905"/>
-<node TEXT="Neverwinter Nights 1 (playthrough)" ID="ID_1227599727" CREATED="1521449565248" MODIFIED="1522503934304"/>
-<node TEXT="Neverwinter Nights 2 (playthrough)" ID="ID_442355214" CREATED="1521464912611" MODIFIED="1522503938592"/>
-<node TEXT="Planescape Torment (playthrough)" ID="ID_298382815" CREATED="1521449572272" MODIFIED="1522503958308"/>
-<node TEXT="Divinity 1&amp;2 (playthrough, LP?)" ID="ID_1185408949" CREATED="1521449733232" MODIFIED="1523261835927">
-<node TEXT="Divine Divinity" ID="ID_684758750" CREATED="1523261837860" MODIFIED="1523261841493"/>
-<node TEXT="Beyond Divinity" ID="ID_599359666" CREATED="1523261841956" MODIFIED="1523261846051"/>
+<node TEXT="Baldur&apos;s Gate 2 (playthrough) [0/80h]" ID="ID_1479338201" CREATED="1521464874603" MODIFIED="1524654711665"/>
+<node TEXT="Icewind Dale 1 (playthrough) [0/40h]" ID="ID_1187137767" CREATED="1521449560192" MODIFIED="1524654803507"/>
+<node TEXT="Icewind Dale 2 (playthrough) [0/70h]" ID="ID_1021522075" CREATED="1521464904971" MODIFIED="1524654806489"/>
+<node TEXT="Neverwinter Nights 1 (playthrough) [0/70h]" ID="ID_1227599727" CREATED="1521449565248" MODIFIED="1524654846643"/>
+<node TEXT="Neverwinter Nights 2 (playthrough)  [0/70h]" ID="ID_442355214" CREATED="1521464912611" MODIFIED="1524654848841"/>
+<node TEXT="Planescape Torment (playthrough) [0/50h]" ID="ID_298382815" CREATED="1521449572272" MODIFIED="1524656554304"/>
+<node TEXT="Divinity 1&amp;2 (playthrough?, LP?)" ID="ID_1185408949" CREATED="1521449733232" MODIFIED="1524656566046">
+<node TEXT="Divine Divinity [0/55h]" ID="ID_684758750" CREATED="1523261837860" MODIFIED="1524657079777"/>
+<node TEXT="Beyond Divinity [0/35h]" ID="ID_599359666" CREATED="1523261841956" MODIFIED="1524657102734"/>
 </node>
-<node TEXT="Lands of Lore 1&amp;2" ID="ID_427815663" CREATED="1521450091481" MODIFIED="1522503866942">
+<node TEXT="Lands of Lore 1&amp;2 (LP) [15h/30h]" ID="ID_427815663" CREATED="1521450091481" MODIFIED="1524657179431">
 <icon BUILTIN="25%"/>
-<node TEXT="Lands of Lore 1: The Throne of Chaos (LP, try?)" ID="ID_826818221" CREATED="1522503608230" MODIFIED="1523261040406">
+<node TEXT="Lands of Lore 1: The Throne of Chaos [15h/15h]" ID="ID_826818221" CREATED="1522503608230" MODIFIED="1524657126278">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="100%"/>
 <richcontent TYPE="NOTE">
@@ -512,19 +841,58 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Lands of Lore 2: (LP, quick LP?, try?)" ID="ID_966059404" CREATED="1522503873204" MODIFIED="1522505950846"/>
+<node TEXT="Lands of Lore 2 [0/15h]" ID="ID_966059404" CREATED="1522503873204" MODIFIED="1524657170502"/>
 </node>
 </node>
-<node TEXT="new classic RPGs" ID="ID_1213726331" CREATED="1521449719136" MODIFIED="1521450006034">
-<node TEXT="Planescape Tides of Numenera" ID="ID_1636256960" CREATED="1521449758153" MODIFIED="1521449777655"/>
-<node TEXT="Pillars of Eternity" ID="ID_225205876" CREATED="1521450043897" MODIFIED="1521450048672"/>
-<node TEXT="Tyranny" ID="ID_1685155401" CREATED="1521450049072" MODIFIED="1521450052407"/>
-<node TEXT="Dragon Age 1&amp;2" ID="ID_1182957579" CREATED="1521449781584" MODIFIED="1521449804408"/>
-<node TEXT="Divinity Original Sin 1&amp;2" ID="ID_1237170733" CREATED="1521449788888" MODIFIED="1521449798191"/>
-<node TEXT="Legend of Grimrock 1&amp;2" ID="ID_456980614" CREATED="1521803885789" MODIFIED="1521803893690"/>
+<node TEXT="new classic/retro RPGs [0/1395h]" ID="ID_1213726331" CREATED="1521449719136" MODIFIED="1524663946214">
+<icon BUILTIN="full-2"/>
+<node TEXT="Eschalon Series [0/70h]" ID="ID_1646458675" CREATED="1524657729683" MODIFIED="1524658849562">
+<node TEXT="Eschalon Book I [0/25h]" ID="ID_363605074" CREATED="1524657755547" MODIFIED="1524658467529"/>
+<node TEXT="Eschalon Book II [0/30h]" ID="ID_659668230" CREATED="1524657773547" MODIFIED="1524658460881"/>
+<node TEXT="Eschalon Book III [0/15h]" ID="ID_1820431628" CREATED="1524657776619" MODIFIED="1524658454881"/>
 </node>
-<node TEXT="legendary RPGs" ID="ID_1076151996" CREATED="1521449659372" MODIFIED="1521468375103">
+<node TEXT="spiderweb software games" ID="ID_1288067076" CREATED="1524659777631" MODIFIED="1524659793444">
+<node TEXT="Avernum Series [0/400h]" ID="ID_766324481" CREATED="1524657739179" MODIFIED="1524658825587">
+<node TEXT="Avernum I [0/60h]" ID="ID_510920437" CREATED="1524657781715" MODIFIED="1524658557403"/>
+<node TEXT="Avernum II [0/70h]" ID="ID_961066602" CREATED="1524657934459" MODIFIED="1524658562385"/>
+<node TEXT="Avernum III [0/70h]" ID="ID_1557271285" CREATED="1524657938179" MODIFIED="1524658633721"/>
+<node TEXT="Avernum IV [0/70h]" ID="ID_1617654517" CREATED="1524657941099" MODIFIED="1524658622348"/>
+<node TEXT="Avernum V [0/70h]" ID="ID_1840000616" CREATED="1524657945091" MODIFIED="1524658624706"/>
+<node TEXT="Avernum VI [0/60h]" ID="ID_402567086" CREATED="1524657951652" MODIFIED="1524658628361"/>
+</node>
+<node TEXT="Geneforge Series [0/270h]" ID="ID_329947259" CREATED="1524657743963" MODIFIED="1524658795002">
+<node TEXT="Geneforge I [0/50h]" ID="ID_1508402452" CREATED="1524658096484" MODIFIED="1524658679260"/>
+<node TEXT="Geneforge II [0/50h]" ID="ID_530041446" CREATED="1524658102548" MODIFIED="1524658682153"/>
+<node TEXT="Geneforge III [0/50h]" ID="ID_1409799027" CREATED="1524658104868" MODIFIED="1524658683841"/>
+<node TEXT="Geneforge IV [0/60h]" ID="ID_1315786453" CREATED="1524658109060" MODIFIED="1524658692409"/>
+<node TEXT="Geneforge V [0/60h]" ID="ID_1585989821" CREATED="1524658111588" MODIFIED="1524658694001"/>
+</node>
+<node TEXT="Avadon Series [0/180h]" ID="ID_1452007274" CREATED="1524657989324" MODIFIED="1524658778644">
+<node TEXT="Avadon I [0/60h]" ID="ID_48468603" CREATED="1524658352924" MODIFIED="1524658758837"/>
+<node TEXT="Avadon II [0/60h]" ID="ID_1738715981" CREATED="1524658358300" MODIFIED="1524658760626"/>
+<node TEXT="Avadon III [0/60h]" ID="ID_312830827" CREATED="1524658359916" MODIFIED="1524658762593"/>
+</node>
+</node>
+<node TEXT="Pillars of Eternity [0/65h]" ID="ID_225205876" CREATED="1521450043897" MODIFIED="1524656913960"/>
+<node TEXT="Dragon Age 1&amp;2 [0/105h]" ID="ID_1182957579" CREATED="1521449781584" MODIFIED="1524657616394">
+<node TEXT="Dragon Age Origins [0/65h]" ID="ID_1421216946" CREATED="1524656805473" MODIFIED="1524657025030"/>
+<node TEXT="Dragon Age 2 [0/40h]" ID="ID_1264524530" CREATED="1524656810841" MODIFIED="1524657037646"/>
+</node>
+<node TEXT="Torment Tides of Numenera (playthrough) [0/35h]" ID="ID_1636256960" CREATED="1521449758153" MODIFIED="1524656682814"/>
+<node TEXT="Tyranny [0/35h]" ID="ID_1685155401" CREATED="1521450049072" MODIFIED="1524656964032"/>
+<node TEXT="Divinity Original Sin 1&amp;2 [0/185h]" ID="ID_1237170733" CREATED="1521449788888" MODIFIED="1524657606704">
+<node TEXT="Divinity: Original Sin [0/90h]" ID="ID_1722837001" CREATED="1524656814593" MODIFIED="1524657480727"/>
+<node TEXT="Divinity: Original Sin 2 [0/95h]" ID="ID_1899893129" CREATED="1524656818689" MODIFIED="1524657519559"/>
+</node>
+<node TEXT="Legend of Grimrock 1&amp;2 [0/50h]" ID="ID_456980614" CREATED="1521803885789" MODIFIED="1524657597167">
+<node TEXT="Legend of Grimrock 1 [0/25h]" ID="ID_963188406" CREATED="1524656827953" MODIFIED="1524657578618"/>
+<node TEXT="Legend of Grimrock 2 [0/25h]" ID="ID_746417881" CREATED="1524656837721" MODIFIED="1524657590038"/>
+</node>
+<node TEXT="??? The new Bard&apos;s Tale game ???" ID="ID_147506925" CREATED="1524664404449" MODIFIED="1524664423607"/>
+</node>
+<node TEXT="legendary RPGs" ID="ID_1076151996" CREATED="1521449659372" MODIFIED="1524663949438">
 <icon BUILTIN="0%"/>
+<icon BUILTIN="full-3"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -538,6 +906,22 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="Might &amp; Magic 1-8 [26/160h]" ID="ID_518542642" CREATED="1521449634449" MODIFIED="1524657360134">
+<icon BUILTIN="0%"/>
+<node TEXT="Might &amp; Magic 1 (LP) (1986) [20/20h]" ID="ID_783886013" CREATED="1521449867710" MODIFIED="1524657243327">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="100%"/>
+</node>
+<node TEXT="Might &amp; Magic 2 (LP) (1988) [6/20h]" ID="ID_1254151241" CREATED="1521465151620" MODIFIED="1524657308447">
+<icon BUILTIN="25%"/>
+</node>
+<node TEXT="Might &amp; Magic 3 (LP, ?try) (1991) [0/20h]" ID="ID_300057724" CREATED="1521465199963" MODIFIED="1524657305017"/>
+<node TEXT="Might &amp; Magic 4 (LP, ?try) (1992) [0/20h]" ID="ID_1843367678" CREATED="1521465213611" MODIFIED="1524657327824"/>
+<node TEXT="Might &amp; Magic 5 (LP, ?try) (1993) [0/20h]" ID="ID_1793776304" CREATED="1521465216548" MODIFIED="1524657330055"/>
+<node TEXT="Might &amp; Magic 6 (LP, try, ?beat) (1998) [0/20h]" ID="ID_1513145237" CREATED="1521465225027" MODIFIED="1524657332391"/>
+<node TEXT="Might &amp; Magic 7 (LP, try, ?beat) (1999) [0/20h]" ID="ID_106778340" CREATED="1521465227819" MODIFIED="1524657334847"/>
+<node TEXT="Might &amp; Magic 8 (LP, try) (2000) (passable, but a let-down for the series)  [0/20h]" ID="ID_541037517" CREATED="1521465231179" MODIFIED="1524657345215"/>
+</node>
 <node TEXT="Golden Box Games, SSI" ID="ID_231981546" CREATED="1521449517032" MODIFIED="1521449549850">
 <node TEXT="Pool of Radiance" ID="ID_1751543151" CREATED="1521465889805" MODIFIED="1521470605362">
 <node TEXT="Pool of Radiance (1988)" ID="ID_1897842346" CREATED="1521465616044" MODIFIED="1521465797823"/>
@@ -606,22 +990,6 @@
 <node TEXT="Death Knights of Krynn (1991)" ID="ID_1242842579" CREATED="1521470840465" MODIFIED="1521470841819"/>
 <node TEXT="The Dark Queen of Krynn (1992)" ID="ID_650186205" CREATED="1521470850602" MODIFIED="1521470851435"/>
 </node>
-</node>
-<node TEXT="Might &amp; Magic 1-8" ID="ID_518542642" CREATED="1521449634449" MODIFIED="1521465170091">
-<icon BUILTIN="0%"/>
-<node TEXT="Might &amp; Magic 1 (LP) (1986)" ID="ID_783886013" CREATED="1521449867710" MODIFIED="1521469674849">
-<icon BUILTIN="button_ok"/>
-<icon BUILTIN="100%"/>
-</node>
-<node TEXT="Might &amp; Magic 2 (LP) (1988)" ID="ID_1254151241" CREATED="1521465151620" MODIFIED="1521804075493">
-<icon BUILTIN="25%"/>
-</node>
-<node TEXT="Might &amp; Magic 3 (LP, ?try) (1991)" ID="ID_300057724" CREATED="1521465199963" MODIFIED="1521469709927"/>
-<node TEXT="Might &amp; Magic 4 (LP, ?try) (1992)" ID="ID_1843367678" CREATED="1521465213611" MODIFIED="1521469713278"/>
-<node TEXT="Might &amp; Magic 5 (LP, ?try) (1993)" ID="ID_1793776304" CREATED="1521465216548" MODIFIED="1521469716966"/>
-<node TEXT="Might &amp; Magic 6 (LP, try, ?beat) (1998)" ID="ID_1513145237" CREATED="1521465225027" MODIFIED="1521469940039"/>
-<node TEXT="Might &amp; Magic 7 (LP, try, ?beat) (1999)" ID="ID_106778340" CREATED="1521465227819" MODIFIED="1521469889616"/>
-<node TEXT="Might &amp; Magic 8 (LP, try) (2000) (passable, but a let-down for the series)" ID="ID_541037517" CREATED="1521465231179" MODIFIED="1521804097918"/>
 </node>
 <node TEXT="Ultima 1-8" ID="ID_1130023621" CREATED="1521449536494" MODIFIED="1521465146273"><richcontent TYPE="NOTE">
 
