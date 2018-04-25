@@ -78,7 +78,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="active" ID="ID_569861627" CREATED="1524665829868" MODIFIED="1524668024358"><richcontent TYPE="NOTE">
 
@@ -95,7 +94,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="research" ID="ID_621149523" CREATED="1524667496791" MODIFIED="1524668075506">
 <font BOLD="false" ITALIC="true"/>
@@ -119,7 +117,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="graphics" ID="ID_1568149516" CREATED="1524665907380" MODIFIED="1524668082401">
 <font BOLD="false" ITALIC="true"/>
@@ -163,7 +160,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="prioritise research, move all else to research - backlog" ID="ID_510352765" CREATED="1524666627318" MODIFIED="1524666688230"><richcontent TYPE="DETAILS">
 
@@ -177,7 +173,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -193,7 +188,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -203,7 +197,7 @@
 <hook NAME="plugins/TimeManagementReminder.xml">
     <Parameters REMINDUSERAT="1525618680284" PERIOD="1" UNIT="DAY"/>
 </hook>
-<node TEXT="progress through Balsdur&apos;s Gate [0/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1524666105265"/>
+<node TEXT="progress through Balsdur&apos;s Gate [1/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1524680875286"/>
 <node TEXT="read d&amp;d 4 player&apos;s handbook [0/8h]" ID="ID_491025055" CREATED="1524665277507" MODIFIED="1524668436718"/>
 <node TEXT="read Might &amp; Magic 2 LP [1/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1524668496966"/>
 </node>
@@ -408,7 +402,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="GUI" ID="ID_51349897" CREATED="1523898991811" MODIFIED="1524299640170">
 <icon BUILTIN="0%"/>
@@ -466,7 +459,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="graphics" ID="ID_924207292" CREATED="1524300040540" MODIFIED="1524300052855">
 <icon BUILTIN="0%"/>
