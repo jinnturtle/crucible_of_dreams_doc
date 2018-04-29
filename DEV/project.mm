@@ -197,9 +197,9 @@
 <hook NAME="plugins/TimeManagementReminder.xml">
     <Parameters REMINDUSERAT="1525618680284" PERIOD="1" UNIT="DAY"/>
 </hook>
-<node TEXT="progress through Balsdur&apos;s Gate [1/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1524680875286"/>
+<node TEXT="progress through Balsdur&apos;s Gate [2/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1525012932714"/>
 <node TEXT="read d&amp;d 4 player&apos;s handbook [0/8h]" ID="ID_491025055" CREATED="1524665277507" MODIFIED="1524668436718"/>
-<node TEXT="read Might &amp; Magic 2 LP [1/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1524668496966"/>
+<node TEXT="read Might &amp; Magic 2 LP [2/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1525012938900"/>
 </node>
 </node>
 <node TEXT="todo" ID="ID_724932820" CREATED="1524665721292" MODIFIED="1524665722568">
