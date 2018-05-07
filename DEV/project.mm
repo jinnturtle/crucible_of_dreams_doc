@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="crucible_of_dreams" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1524641906824"><hook NAME="MapStyle">
+<node TEXT="crucible_of_dreams" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1525710379852"><hook NAME="MapStyle">
     <properties show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -69,7 +69,7 @@
 </map_styles>
 </hook>
 <font NAME="Ubuntu"/>
-<node TEXT="project management" STYLE_REF="management_root" FOLDED="true" POSITION="left" ID="ID_1310023025" CREATED="1522506889089" MODIFIED="1524643403152">
+<node TEXT="project management" STYLE_REF="management_root" POSITION="left" ID="ID_1310023025" CREATED="1522506889089" MODIFIED="1524643403152">
 <node TEXT="sprint themes" FOLDED="true" ID="ID_1509973096" CREATED="1524665586795" MODIFIED="1524668116104"><richcontent TYPE="NOTE">
 
 <html>
@@ -195,21 +195,21 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="sprints" FOLDED="true" ID="ID_1865033773" CREATED="1524665714316" MODIFIED="1524665717056">
-<node TEXT="active" FOLDED="true" ID="ID_1897399192" CREATED="1524665722884" MODIFIED="1524665724111">
-<node TEXT="sprint 1" FOLDED="true" ID="ID_625256325" CREATED="1524664553785" MODIFIED="1525526293983">
+<node TEXT="sprints" ID="ID_1865033773" CREATED="1524665714316" MODIFIED="1524665717056">
+<node TEXT="active" ID="ID_1897399192" CREATED="1524665722884" MODIFIED="1524665724111">
+<node TEXT="sprint 1" ID="ID_625256325" CREATED="1524664553785" MODIFIED="1525710346645">
 <hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1525618680284" PERIOD="1" UNIT="DAY"/>
+    <Parameters REMINDUSERAT="1526223480284" PERIOD="1" UNIT="DAY"/>
 </hook>
 <node TEXT="progress through Baldur&apos;s Gate [5/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1525526286505"/>
 <node TEXT="read d&amp;d 4 player&apos;s handbook [0/8h]" ID="ID_491025055" CREATED="1524665277507" MODIFIED="1524668436718"/>
 <node TEXT="read Might &amp; Magic 2 LP [2/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1525012938900"/>
 </node>
 </node>
-<node TEXT="todo" FOLDED="true" ID="ID_724932820" CREATED="1524665721292" MODIFIED="1524665722568">
-<node TEXT="sprint 2" FOLDED="true" ID="ID_1080777006" CREATED="1524664560129" MODIFIED="1525532641026">
+<node TEXT="todo" ID="ID_724932820" CREATED="1524665721292" MODIFIED="1524665722568">
+<node TEXT="sprint 2" ID="ID_1080777006" CREATED="1524664560129" MODIFIED="1525710351738">
 <hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1526223480284" PERIOD="1" UNIT="DAY"/>
+    <Parameters REMINDUSERAT="1526828280284" PERIOD="1" UNIT="DAY"/>
 </hook>
 <node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_571828804" CREATED="1524665265259" MODIFIED="1524666094793"/>
 <node TEXT="think on additional backup means [0/2h]" ID="ID_850386282" CREATED="1522506937312" MODIFIED="1524668241333"><richcontent TYPE="NOTE">
@@ -235,16 +235,16 @@
 <node TEXT="read Might &amp; Magic 2 LP [0/2h]" ID="ID_854419676" CREATED="1524668512530" MODIFIED="1524668519190"/>
 <node TEXT="coding - the playground [0/5h]" ID="ID_288402322" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
-<node TEXT="sprint 3" FOLDED="true" ID="ID_541386858" CREATED="1524664563201" MODIFIED="1525532645449">
+<node TEXT="sprint 3" ID="ID_541386858" CREATED="1524664563201" MODIFIED="1525710356221">
 <hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1526828280284" PERIOD="1" UNIT="DAY"/>
+    <Parameters REMINDUSERAT="1527433080284" PERIOD="1" UNIT="DAY"/>
 </hook>
 <node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_470946615" CREATED="1524665267603" MODIFIED="1524666098449"/>
 <node TEXT="coding - the playground [0/5h]" ID="ID_602521070" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
-<node TEXT="sprint 4" FOLDED="true" ID="ID_466675227" CREATED="1524664565489" MODIFIED="1525532650394">
+<node TEXT="sprint 4" ID="ID_466675227" CREATED="1524664565489" MODIFIED="1525710520646">
 <hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1527433080284" PERIOD="1" UNIT="DAY"/>
+    <Parameters REMINDUSERAT="1528124280284" PERIOD="1" UNIT="DAY"/>
 </hook>
 <node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_1631854484" CREATED="1524665269947" MODIFIED="1524666101633"/>
 <node TEXT="coding - the playground [0/5h]" ID="ID_1583122815" CREATED="1524668540890" MODIFIED="1524669482313"/>
