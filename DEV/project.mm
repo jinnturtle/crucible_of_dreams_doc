@@ -196,62 +196,29 @@
 </node>
 </node>
 <node TEXT="sprints" ID="ID_1865033773" CREATED="1524665714316" MODIFIED="1524665717056">
-<node TEXT="active" ID="ID_1897399192" CREATED="1524665722884" MODIFIED="1524665724111">
-<node TEXT="sprint 1" ID="ID_625256325" CREATED="1524664553785" MODIFIED="1525710346645">
-<hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1526223480284" PERIOD="1" UNIT="DAY"/>
-</hook>
-<node TEXT="progress through Baldur&apos;s Gate [5/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1525526286505"/>
-<node TEXT="read d&amp;d 4 player&apos;s handbook [0/8h]" ID="ID_491025055" CREATED="1524665277507" MODIFIED="1524668436718"/>
-<node TEXT="read Might &amp; Magic 2 LP [2/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1525012938900"/>
-</node>
-</node>
+<node TEXT="active" ID="ID_1897399192" CREATED="1524665722884" MODIFIED="1524665724111"/>
 <node TEXT="todo" ID="ID_724932820" CREATED="1524665721292" MODIFIED="1524665722568">
-<node TEXT="sprint 2" ID="ID_1080777006" CREATED="1524664560129" MODIFIED="1525710351738">
+<node TEXT="sprint 2" ID="ID_1080777006" CREATED="1524664560129" MODIFIED="1528185562057">
+<icon BUILTIN="0%"/>
 <hook NAME="plugins/TimeManagementReminder.xml">
     <Parameters REMINDUSERAT="1526828280284" PERIOD="1" UNIT="DAY"/>
 </hook>
-<node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_571828804" CREATED="1524665265259" MODIFIED="1524666094793"/>
-<node TEXT="think on additional backup means [0/2h]" ID="ID_850386282" CREATED="1522506937312" MODIFIED="1524668241333"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      ideas:
-    </p>
-    <p>
-      * external HDD
-    </p>
-    <p>
-      * semi/automatic sync to own R-pi server with HDD attached
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="read Might &amp; Magic 2 LP [0/2h]" ID="ID_854419676" CREATED="1524668512530" MODIFIED="1524668519190"/>
-<node TEXT="coding - the playground [0/5h]" ID="ID_288402322" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
 <node TEXT="sprint 3" ID="ID_541386858" CREATED="1524664563201" MODIFIED="1525710356221">
 <hook NAME="plugins/TimeManagementReminder.xml">
     <Parameters REMINDUSERAT="1527433080284" PERIOD="1" UNIT="DAY"/>
 </hook>
-<node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_470946615" CREATED="1524665267603" MODIFIED="1524666098449"/>
-<node TEXT="coding - the playground [0/5h]" ID="ID_602521070" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
 <node TEXT="sprint 4" ID="ID_466675227" CREATED="1524664565489" MODIFIED="1525710520646">
 <hook NAME="plugins/TimeManagementReminder.xml">
     <Parameters REMINDUSERAT="1528124280284" PERIOD="1" UNIT="DAY"/>
 </hook>
-<node TEXT="progress through Balsdur&apos;s Gate [0/6h]" ID="ID_1631854484" CREATED="1524665269947" MODIFIED="1524666101633"/>
-<node TEXT="coding - the playground [0/5h]" ID="ID_1583122815" CREATED="1524668540890" MODIFIED="1524669482313"/>
 </node>
 </node>
-<node TEXT="done" FOLDED="true" ID="ID_610293152" CREATED="1524665724356" MODIFIED="1524665725176">
-<node TEXT="sprint 0" FOLDED="true" ID="ID_219214098" CREATED="1524668601354" MODIFIED="1524668603478">
+<node TEXT="done" ID="ID_610293152" CREATED="1524665724356" MODIFIED="1524665725176">
+<node TEXT="sprint 0" FOLDED="true" ID="ID_219214098" CREATED="1524668601354" MODIFIED="1528185169482">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="100%"/>
 <node TEXT="move to a closed repo" LOCALIZED_STYLE_REF="default" ID="ID_851671823" CREATED="1522506896592" MODIFIED="1524300300883">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -337,6 +304,13 @@
 <node TEXT="lay out a rough roadmap with milestones with dates" ID="ID_1414516550" CREATED="1522508291963" MODIFIED="1524669056307">
 <icon BUILTIN="button_ok"/>
 </node>
+</node>
+<node TEXT="sprint 1" FOLDED="true" ID="ID_625256325" CREATED="1524664553785" MODIFIED="1528185166118">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="100%"/>
+<node TEXT="progress through Baldur&apos;s Gate [5/5h]" ID="ID_972624776" CREATED="1524665036106" MODIFIED="1525526286505"/>
+<node TEXT="read GURPS core rules [8/8h]" ID="ID_491025055" CREATED="1524665277507" MODIFIED="1528185031860"/>
+<node TEXT="read Might &amp; Magic 2 LP [2/2h]" ID="ID_1749881617" CREATED="1524668477193" MODIFIED="1525012938900"/>
 </node>
 </node>
 </node>
@@ -739,7 +713,7 @@
 <node TEXT="side quests" ID="ID_952199190" CREATED="1524299874477" MODIFIED="1524299876988"/>
 </node>
 </node>
-<node TEXT="do reasearch" STYLE_REF="research_root" FOLDED="true" POSITION="right" ID="ID_1749869023" CREATED="1521448763958" MODIFIED="1524643359281">
+<node TEXT="do reasearch" STYLE_REF="research_root" POSITION="right" ID="ID_1749869023" CREATED="1521448763958" MODIFIED="1524643359281">
 <node TEXT="explore existing systems" FOLDED="true" ID="ID_849925476" CREATED="1521448784790" MODIFIED="1522508380354">
 <icon BUILTIN="0%"/>
 <richcontent TYPE="NOTE">
@@ -809,15 +783,15 @@
 <node TEXT="Shadowrun [0/20h]" ID="ID_1635537742" CREATED="1521449113431" MODIFIED="1524662975682"/>
 <node TEXT="World of Darkness [0/40h]" ID="ID_703806060" CREATED="1521449222575" MODIFIED="1524662981530"/>
 </node>
-<node TEXT="play/look at games" FOLDED="true" ID="ID_684576517" CREATED="1521449509728" MODIFIED="1522508368557">
+<node TEXT="play/look at games" ID="ID_684576517" CREATED="1521449509728" MODIFIED="1522508368557">
 <icon BUILTIN="0%"/>
-<node TEXT="classic RPGs [23/500h]" FOLDED="true" ID="ID_1000386887" CREATED="1521467187736" MODIFIED="1524663911274">
+<node TEXT="classic RPGs [23/500h]" ID="ID_1000386887" CREATED="1521467187736" MODIFIED="1528185281567">
 <icon BUILTIN="0%"/>
 <icon BUILTIN="full-1"/>
-<node TEXT="Baldur&apos;s Gate (playthrough) [8/60h]" ID="ID_1130777398" CREATED="1521449552632" MODIFIED="1524654881665">
+<node TEXT="Baldur&apos;s Gate (playthrough) [8/60h]" ID="ID_1130777398" CREATED="1521449552632" MODIFIED="1528185247261">
 <icon BUILTIN="0%"/>
 <hook NAME="plugins/TimeManagementReminder.xml">
-    <Parameters REMINDUSERAT="1527949680000" PERIOD="1" UNIT="DAY"/>
+    <Parameters REMINDUSERAT="1530628080000" PERIOD="1" UNIT="DAY"/>
 </hook>
 </node>
 <node TEXT="Baldur&apos;s Gate 2 (playthrough) [0/80h]" ID="ID_1479338201" CREATED="1521464874603" MODIFIED="1524654711665"/>
