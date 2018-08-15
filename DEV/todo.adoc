@@ -36,6 +36,13 @@
 == stealth
 * [ ] stealth
 
+== 2018-08-15
+additional plot elements
+
+== [x] buttons 2018-08-14
+* [x] textures
+* [x] programming
+
 == [x] basic rendering 2018-03-13
 * [x] the basic input-update-display loop
 * [x] framerate capping
