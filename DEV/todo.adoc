@@ -36,6 +36,11 @@
 == stealth
 * [ ] stealth
 
+== 2018-08-21/24
+* [x] main_menu
+* [x] quite some work towards gui structure
+* [x] more fixes under the hood
+
 == 2018-08-15
 additional plot elements
 
