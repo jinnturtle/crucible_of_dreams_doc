@@ -8,15 +8,14 @@ Here are snips of plot and lore elements that are to be sorted out later.
 
 ==== The Trinity of Death
 
-Rogob, the lord of destruction and chaos.
+Rozgob, the lord of destruction and chaos.
 Nezherteg, the lord of blood and slaughter.
 Dachometus, the lord of death and decay.
 
 === Other
 
 Sargal, the lord of warfare.
-Nathhah, the lord of apathy.
-Falanihail, the lord of pain and torture.
+<?>, the lord of pain and torture.
 Amakos, the lord of loss and grief.
 Tanesh, lord of gluttony and greed.
 
