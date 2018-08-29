@@ -8,15 +8,17 @@ Here are snips of plot and lore elements that are to be sorted out later.
 
 ==== The Trinity of Death
 
-Rozgob, the lord of destruction and chaos.
-Nezherteg, the lord of blood and slaughter.
+_[think about the names more, and possble naming scheme]_ +
+Rozgob, the lord of destruction and chaos. +
+Nezherteg, the lord of blood and slaughter. +
 Dachometus, the lord of death and decay.
 
 === Other
 
-Sargal, the lord of warfare.
-<?>, the lord of pain and torture.
-Amakos, the lord of loss and grief.
+_[think about the names more, and possble naming scheme]_ +
+Sargal, the lord of warfare. +
+<?>, the lord of pain and torture. +
+Amakos, the lord of loss and grief. +
 Tanesh, lord of gluttony and greed.
 
 === The Blade of the Slain
