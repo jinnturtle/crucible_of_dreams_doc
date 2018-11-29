@@ -1,0 +1,3 @@
+#swap files, backup files left by editors, etc
+*~
+*.swp
