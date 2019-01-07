@@ -1,0 +1,793 @@
+= crucible_of_dreams
+
+
+== project management
+
+
+=== sprint themes
+
+NOTE:                             these should be disitributed throughout sprints          
+
+==== active
+
+NOTE:                             try to limit to 5          
+       currently recurring themes (at least one in four sprints)the progress marker should indicate how far exhausted is the theme for the time being, indicating how soon it will return to the "pending" section          
+? research
+
+? tabletop RPG systems
+
+? CRPG games
+
+? plan crucible game system
+
+? project management - planning
+
+
+==== pending
+
+NOTE:                             all push themes that are not active          
+? graphics
+
+? GUI graphics
+
+? tile graphics
+
+? character graphics
+
+? item graphics
+
+? map element graphics
+
+? planning
+
+? magic system
+
+? skill system
+
+? coding
+
+? game engine
+
+? gameplay mechanics
+
+? setting
+
+? universe
+
+? story
+
+? research
+
+? fictional universes/settings
+
+
+=== tasks
+
+
+==== backlog
+
+NOTE:                             all the things that need to be done          
+? prioritise research, move all else to research - backlog
+
+                            aim for 200h tops          
+
+==== next
+
+NOTE:                             these should get to a sprint as soon as possible          
+
+=== sprints
+
+
+==== active
+
+
+==== todo
+
+? sprint 2
+
+? sprint 3
+
+? sprint 4
+
+
+==== done
+
+? sprint 0
+
+? move to a closed repo
+
+? get something like a kanban board started
+
+                            * manage it from (this) mind-map          
+       * trello board?          
+       * treesheets?          
+NOTE:                             options include:          
+       * trello          
+       * github project          
+       * look for more solutions          
+? remove old open repo
+
+? think of a work-plan
+
+                            * maybe do a weekly plan for some 10-20 weeks ahead          
+       * or compose limited time sprints in the backlog          
+NOTE:                             make sure to scatter research->games, research->settings, coding, etc.. into sprints concentrated enough to actually achieve something in time given, but also avoid several same-themed sprints in a row, as the ammount of work in all sections is massive and we do not want to get bogged down by one type of task for a year (ideally, not longer than one month), e.g. if I would do nothing else untill the research is done it would take me a couple of years of that only - some of the research topics will most likely be skipped as there is not enough time before the release date of 2021-01-01          
+? lay out a rough roadmap with milestones with dates
+
+? sprint 1
+
+? progress through Baldur's Gate [5/5h]
+
+? read GURPS core rules [8/8h]
+
+? read Might & Magic 2 LP [2/2h]
+
+
+=== releases / tags
+
+
+==== v0.0.1 (2018-xx-xx)
+
+
+==== v0.0.2 (2018-xx-xx)
+
+
+==== v0.0.3 (2018-xx-xx)
+
+
+==== ...
+
+
+=== roadmap
+
+
+==== basic research
+
+? few levels for playground/testing
+
+? game ruleset
+
+                            * movement model          
+       * combat          
+       * skills          
+? alpha 1.0
+
+                            research - 80%          
+       playground - 100%          
+       game rules planned - 80%          
+       skill system - 30%          
+       magic system - 30%          
+? GUI
+
+? setting
+
+? story
+
+? beta 1.0
+
+                            GUI - 50%          
+       story - 30%          
+       setting - 60%          
+       game rules planned - 100%          
+       game rules implemented - 30%          
+       research - 100%          
+       magic system - 50%          
+       skill system - 50%          
+       general movement mechanics - 80%          
+       combat mechanics - 10%          
+? graphics
+
+? sound
+
+? release 1.0
+
+
+== GUI
+
+
+=== GUI tooklit
+
+
+==== button
+
+
+==== text box
+
+
+==== scrollable list
+
+
+==== button menu
+
+
+==== tick box
+
+
+==== element grouping / relative linkage
+
+
+=== main game screen
+
+
+==== game_text_log
+
+NOTE:                             The log of what's happening around the player.          
+                 
+       e.g.          
+       "character hits eldrich being for 4 points of damage, eldrich being is bleeding, eldrich being is weakened"          
+       "the party goes down the dark staircase for what seems an eternity"          
+       "the character swings at the thug, the thug dodges"          
+       "the party emerges into bright daylight"          
+       etc...          
+? scrolling
+
+? object and context dependant colouring
+
+? resizing
+
+
+==== functions (sidebar?)
+
+? main menu
+
+? inventory
+
+? journal
+
+? character info
+
+? spells/magic
+
+? abilities
+
+? rest
+
+? time of day (skyline)
+
+? pause
+
+
+==== character roster
+
+? hp
+
+? name
+
+? select character on_click
+
+? status icon(s)
+
+? ? portait
+
+
+==== direction of north
+
+
+==== ? date year/month/day
+
+
+=== general info tabs
+
+
+==== inventory window
+
+
+==== spellbook
+
+
+==== character sheet
+
+
+=== main menu
+
+
+== gameplay
+
+
+=== flow of time
+
+
+==== time of day
+
+? creatures of the night
+
+? character (not only NPC) bahaviour
+
+
+==== effects
+
+? health regeneration
+
+? stamina regeneration
+
+? rest
+
+
+==== traveling
+
+
+==== different dimensions/planes
+
+
+=== combat
+
+NOTE:                             turn-based with initiative rolls at beginning of combat (the queue can later be modified with speed spells, etc)          
+                 
+       key concepts:          
+       * tile based          
+       * initative          
+       * speed          
+       * dodge (agility)          
+       * accuracy ( perception + dexterity)          
+       * line of sight          
+       * area of attack          
+       * stealth          
+
+=== rules system
+
+
+==== classes
+
+NOTE:                             Have a good long think how much the classes/professions should be enforced.          
+       Could avoid classes alltogetger, and instead have a selection of skills, possibly with grouping possibility for convenience, with some grapihcal guides to highlight which skills are more fitting to which profession(s).          
+                 
+       see some RPG systems lige D&D, Pathfinder, GURPS, etc... for some ideas. Allso, consider how CRPGs implement that.          
+? warrior
+
+? mage
+
+? rogue/thief
+
+? paladin
+
+? ranger
+
+? sorcerer
+
+
+=== unseen/hidden areas
+
+
+=== line of sight
+
+
+== graphics
+
+
+=== GUI
+
+
+=== tile
+
+
+=== characters
+
+
+=== glyphs / typefaces
+
+
+== gameworld
+
+
+=== places
+
+
+==== sky ruler
+
+? sky ruler city
+
+
+==== overworld
+
+? the chasm
+
+? the heartlands
+
+? heartland sea
+
+? moon sea
+
+? sun sea
+
+? star sea
+
+? cities
+
+? eldergate
+
+? thunder forge
+
+? star hammer
+
+? white forge
+
+? realms
+
+? more regions
+
+
+==== underworld
+
+? shallows
+
+? the depths
+
+? fey-dark
+
+? nethergate
+
+
+=== creatures
+
+
+==== intelligent
+
+
+==== less intelligent
+
+? neutral
+
+? predator
+
+? exotic
+
+
+==== feral
+
+? neutral
+
+? predator
+
+? exotic
+
+
+=== story
+
+
+==== main quest
+
+? chapter I
+
+? chapter II
+
+? chapter III
+
+? chapter IV
+
+? chapter V
+
+? chapter VI
+
+? chapter VII
+
+
+==== side quests
+
+
+== do reasearch
+
+
+=== explore existing systems
+
+NOTE:                             see how some rulesets work, think about digital implementation nuances          
+       how is combat done, is there any real-time-like representation (d&d initiative?)          
+
+==== D&D 4 [10h]
+
+
+==== D&D 3.5 [30h]
+
+? read Player's Handbook
+
+? read Dungeon Master's Guide
+
+? quick-read Bestiary
+
+
+==== Pathfinder [30h]
+
+? which books?
+
+
+==== GURPS [20h]
+
+? Basic Set - Player's
+
+? Basic Set - Game Master's
+
+? see some adventures, bestieries, etc
+
+
+==== Shadowrun [30h]
+
+? at least the core books
+
+
+==== World of Darkness [30h]
+
+? core books
+
+? Vampire
+
+? Warewolf
+
+
+=== explore settings
+
+NOTE:                             monsters, locations, travel, mounts, vehicles, magic, dungeons, settlements, etc          
+
+==== Forgotten Realms [1/20h]
+
+
+==== Pathfinder (do they make settings of their own?)
+
+
+==== various GURPS supplements [0/30h]
+
+
+==== Age of Wonders [0/5h]
+
+
+==== Might & Magic [0/15h]
+
+
+==== Warhammer [0/20h]
+
+
+==== J.R.R. Tolkien [0/20h]
+
+
+==== Warcraft [0/15h]
+
+
+==== Planescape [0/10h]
+
+
+==== Shadowrun [0/20h]
+
+
+==== World of Darkness [0/40h]
+
+
+=== play/look at games
+
+
+==== classic RPGs [23/500h]
+
+? Baldur's Gate (playthrough) [8/60h]
+
+? Baldur's Gate 2 (playthrough) [0/80h]
+
+? Icewind Dale 1 (playthrough) [0/40h]
+
+? Icewind Dale 2 (playthrough) [0/70h]
+
+? Neverwinter Nights 1 (playthrough) [0/70h]
+
+? Neverwinter Nights 2 (playthrough) [0/70h]
+
+? Planescape Torment (playthrough) [0/50h]
+
+? Divinity 1&2 (playthrough?, LP?)
+
+? Divine Divinity [0/55h]
+
+? Beyond Divinity [0/35h]
+
+? Lands of Lore 1&2 (LP) [15h/30h]
+
+? Lands of Lore 1: The Throne of Chaos [15h/15h]
+
+NOTE:                             let's play by Kikoskia on Youtube: https://www.youtube.com/playlist?list=PLTvwKQHVid4aalhMpFaUp3VkmLxMDnJHO          
+? Lands of Lore 2 [0/15h]
+
+
+==== new classic/retro RPGs [0/1395h]
+
+? Eschalon Series [0/70h]
+
+? Eschalon Book I [0/25h]
+
+? Eschalon Book II [0/30h]
+
+? Eschalon Book III [0/15h]
+
+? spiderweb software games
+
+? Avernum Series [0/400h]
+
+? Avernum I [0/60h]
+
+? Avernum II [0/70h]
+
+? Avernum III [0/70h]
+
+? Avernum IV [0/70h]
+
+? Avernum V [0/70h]
+
+? Avernum VI [0/60h]
+
+? Geneforge Series [0/270h]
+
+? Geneforge I [0/50h]
+
+? Geneforge II [0/50h]
+
+? Geneforge III [0/50h]
+
+? Geneforge IV [0/60h]
+
+? Geneforge V [0/60h]
+
+? Avadon Series [0/180h]
+
+? Avadon I [0/60h]
+
+? Avadon II [0/60h]
+
+? Avadon III [0/60h]
+
+? Pillars of Eternity [0/65h]
+
+? Dragon Age 1&2 [0/105h]
+
+? Dragon Age Origins [0/65h]
+
+? Dragon Age 2 [0/40h]
+
+? Torment Tides of Numenera (playthrough) [0/35h]
+
+? Tyranny [0/35h]
+
+? Divinity Original Sin 1&2 [0/185h]
+
+? Divinity: Original Sin [0/90h]
+
+? Divinity: Original Sin 2 [0/95h]
+
+? Legend of Grimrock 1&2 [0/50h]
+
+? Legend of Grimrock 1 [0/25h]
+
+? Legend of Grimrock 2 [0/25h]
+
+? ??? The new Bard's Tale game ???
+
+
+==== legendary RPGs
+
+NOTE:                             where there is intention to beat the game AND LP, should only watch LP to help solve slow parts of the game and/or instead of a manual when one is nowhere to be found)          
+? Might & Magic 1-8 [26/160h]
+
+? Might & Magic 1 (LP) (1986) [20h]
+
+? Might & Magic 2 (LP) (1988) [20h]
+
+? Might & Magic 3 (LP, ?try) (1991) [0/20h]
+
+? Might & Magic 4 (LP, ?try) (1992) [0/20h]
+
+? Might & Magic 5 (LP, ?try) (1993) [0/20h]
+
+? Might & Magic 6 (LP, try, ?beat) (1998) [0/20h]
+
+? Might & Magic 7 (LP, try, ?beat) (1999) [0/20h]
+
+? Might & Magic 8 (LP, try) (2000) (passable, but a let-down for the series) [0/20h]
+
+? Golden Box Games, SSI
+
+? Pool of Radiance
+
+? Pool of Radiance (1988)
+
+? Curse of the Azure Bonds (1989)
+
+? Secret of the Silver Blades (1990)
+
+? Pools of Darkness (1991)
+
+? Eye of the Beholder
+
+? Eye of the Beholder (1990) (great reviews)
+
+NOTE:                             read/watch an LP, try it out          
+? Eye of the Beholder 2 (1991) (fantastic sequel)
+
+NOTE:                             read/watch an LP, try it out          
+? Eye of the Beholder 3 (1992) (a let-down, very mediocre)
+
+NOTE:                             read/watch an LP, try it out          
+? Ravenloft
+
+? Ravenloft: Strahd's Possession (1994) (great reviews)
+
+? Ravenloft: Stone Prophet (1995) (great reviews)
+
+? Dark Sun
+
+? Dark Sun: Shattered Lands (1993) (sub-par but was innovative)
+
+? Dark Sun: Wake of the Ravager (1994) (weak title)
+
+? Savage Frontier (more of the same)
+
+? Gateway to the Savage Frontier (1991)
+
+? Treasures of the Savage Frontier (1992)
+
+? Dragonlance (more of the same)
+
+? Champions of Krynn (1990)
+
+? Death Knights of Krynn (1991)
+
+? The Dark Queen of Krynn (1992)
+
+? Ultima 1-8
+
+NOTE:                             watch LPs of the earlyest games, try out the few latest titles personally          
+? Akalabeth (1979)
+
+? Ultima 1 (LP-quick) (1981)
+
+? Ultima 2 (LP) (1982)
+
+? Ultima 3 (LP) (1983)
+
+? Ultima 4 (LP, ?try) (1985)
+
+? Ultima 5 (LP, ?try) (1988)
+
+? Ultima 6 (LP, ?try) (1990)
+
+? Ultima 7 part 1 (LP, try, ?beat) (1991)
+
+? Ultima 7 part 2 (LP, try) (1992) (a bit of a let-down)
+
+? Ultima 8 (LP, try, ?beat) (1993) (let-down of the series)
+
+? Ultima Underworld 1 (?LP)
+
+? Ultima Underworld 2 (?LP)
+
+? Albion (LP, try, ?beat)
+
+? Bard's Tale
+
+? Bard's Tale 1
+
+? Bard's Tale 2 (a bit of a let down)
+
+? Bard's Tale 3 (better than 2)
+
+
+==== noteable RPGs
+
+? Divinity 2
+
+? Witcher 1-3
+
+
+==== fantasy tbs
+
+? Age of Wonders 1-3
+
+? Disciples 1 & 2
+
+? King's Bounty
+
+NOTE:                             The progenitor of the Heroes of Might & Magic series.          
+       First instalment released at 1990, development resumed unde a new software house and new entries entered market around 2008          
+? Heroes of Might & Magic 2-5
+
+
+==== fantasy rts
+
+? War Wind 1&2
+
+? Warcraft
+
+? Warhammer
+
