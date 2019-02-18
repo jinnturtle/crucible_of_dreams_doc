@@ -1,7 +1,7 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="crucible_of_dreams" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1550324582337"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_note_icons="true" show_icon_for_attributes="true"/>
+    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -85,13 +85,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="roadmap should go away to a better format - svg?" ID="ID_1713742934" CREATED="1550326432942" MODIFIED="1550327073559"/>
 </node>
 <node TEXT="todo" ID="ID_724932820" CREATED="1524665721292" MODIFIED="1524665722568">
-<node TEXT="a simple level editor to create levels and store in files" ID="ID_1907717036" CREATED="1550326514262" MODIFIED="1550326536080"/>
 <node TEXT="resolve the texture handling mess" ID="ID_1751208952" CREATED="1550326659189" MODIFIED="1550326823006"><richcontent TYPE="NOTE">
 
 <html>
@@ -107,11 +105,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="in progress" ID="ID_18608643" CREATED="1550325809947" MODIFIED="1550325814423">
+<node TEXT="a simple level editor to create levels and store in files" ID="ID_1907717036" CREATED="1550326514262" MODIFIED="1550326536080"/>
 <node TEXT="a basic file format to store level data" ID="ID_1805903353" CREATED="1550325898099" MODIFIED="1550327992370"/>
 </node>
 <node TEXT="review" ID="ID_1147600316" CREATED="1550325832683" MODIFIED="1550325834044"/>
@@ -516,8 +514,140 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="swappable ammunition" ID="ID_1722438896" CREATED="1550478839428" MODIFIED="1550478849874">
+<node TEXT="arrows" ID="ID_873079753" CREATED="1550478865428" MODIFIED="1550478870072"/>
+<node TEXT="bolts" ID="ID_1232843353" CREATED="1550478870460" MODIFIED="1550478871826"/>
+<node TEXT="bullets" ID="ID_33662310" CREATED="1550478874700" MODIFIED="1550478878168">
+<node TEXT="ion" ID="ID_1861960292" CREATED="1550478937284" MODIFIED="1550478940016"/>
+<node TEXT="emp" ID="ID_296870727" CREATED="1550478940196" MODIFIED="1550479224524"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      electromagnetic pulse
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="rules system" FOLDED="true" ID="ID_1371799708" CREATED="1521448693769" MODIFIED="1522505867767">
+<node TEXT="gold" ID="ID_1574946477" CREATED="1550479233772" MODIFIED="1550479236933"/>
+<node TEXT="silver" ID="ID_846662266" CREATED="1550479237244" MODIFIED="1550479239512"/>
+<node TEXT="quick-silver" ID="ID_937377406" CREATED="1550479425748" MODIFIED="1550479429654"/>
+<node TEXT="neon" ID="ID_130078472" CREATED="1550479434540" MODIFIED="1550479435456"/>
+<node TEXT="freezing" ID="ID_230781017" CREATED="1550479267237" MODIFIED="1550479269738"/>
+<node TEXT="incendiary" ID="ID_577583718" CREATED="1550479271828" MODIFIED="1550479274320"/>
+<node TEXT="armor piercing" ID="ID_1996814018" CREATED="1550479275340" MODIFIED="1550479280392"/>
+<node TEXT="poison" ID="ID_1511958835" CREATED="1550479305908" MODIFIED="1550479310289"/>
+<node TEXT="radioactive" ID="ID_27103460" CREATED="1550479310652" MODIFIED="1550479313561"/>
+<node TEXT="explosive" ID="ID_228393267" CREATED="1550479313804" MODIFIED="1550479316991"/>
+<node TEXT="hollow-point" ID="ID_936829714" CREATED="1550479317596" MODIFIED="1550479320752"/>
+<node TEXT="charged" ID="ID_77193431" CREATED="1550479333332" MODIFIED="1550479341678"/>
+<node TEXT="nanite" ID="ID_632718961" CREATED="1550479346396" MODIFIED="1550479348938"/>
+<node TEXT="antimatter" ID="ID_930318800" CREATED="1550479364676" MODIFIED="1550479366504"/>
+<node TEXT="dark matter" ID="ID_692501147" CREATED="1550479382780" MODIFIED="1550479392181"/>
+<node TEXT="dark energy" ID="ID_1010266667" CREATED="1550479392571" MODIFIED="1550479395992"/>
+</node>
+<node TEXT="artilerry shells" ID="ID_560404578" CREATED="1550478879660" MODIFIED="1550480288309"/>
+<node TEXT="power cells" ID="ID_260921299" CREATED="1550478882108" MODIFIED="1550480271481"/>
+<node TEXT="crystals/lenses" ID="ID_362324131" CREATED="1550478911899" MODIFIED="1550480321613"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. for beam weapons
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="types of damage" ID="ID_1406413401" CREATED="1550479458244" MODIFIED="1550479461952">
+<node TEXT="blunt" ID="ID_1551290192" CREATED="1550479467580" MODIFIED="1550479470672"/>
+<node TEXT="pearcing" ID="ID_1953394081" CREATED="1550479471380" MODIFIED="1550479473328"/>
+<node TEXT="cutting" ID="ID_464259413" CREATED="1550479473708" MODIFIED="1550479478457"/>
+<node TEXT="fire" ID="ID_1158874471" CREATED="1550479486868" MODIFIED="1550479488280"/>
+<node TEXT="water" ID="ID_123787167" CREATED="1550479604580" MODIFIED="1550479778752"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. damage to electronics; also creatures made of fire could be damaged by water directly; it is hard to imagine a mundane creature damaged simply by water but a high-pressure stream could do cutting damage, and if there's enough water non-amphibians may drown.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="cold" ID="ID_1298719048" CREATED="1550479488484" MODIFIED="1550479491752"/>
+<node TEXT="electrocute" ID="ID_463198836" CREATED="1550479549924" MODIFIED="1550479553464"/>
+<node TEXT="poison" ID="ID_573421870" CREATED="1550479546564" MODIFIED="1550479549576"/>
+<node TEXT="suffocation" ID="ID_1678843800" CREATED="1550479562668" MODIFIED="1550479565097"/>
+<node TEXT="arcane" ID="ID_1716925303" CREATED="1550479798548" MODIFIED="1550479800753"/>
+<node TEXT="ethereal flame" ID="ID_1713787281" CREATED="1550479800956" MODIFIED="1550479805312"/>
+<node TEXT="bleeding" ID="ID_1153417747" CREATED="1550479805676" MODIFIED="1550479807730"/>
+<node TEXT="life drain" ID="ID_92285978" CREATED="1550479809004" MODIFIED="1550479817553"/>
+<node TEXT="chaos" ID="ID_1625824569" CREATED="1550479858596" MODIFIED="1550480159070"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      think the corrupting evil as per H. P. Lovecraft; chaos in Warhammer (and 40k); chaos in ADOM
+    </p>
+    <p>
+      while direct damage is quite conceivable, especially in a simpler rule-system (e.g. hack-and-smash), this kind of damage would usually have more exotic effect in stead of or in addition to direct damage to health/vitality.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="death" ID="ID_1069785628" CREATED="1550480167276" MODIFIED="1550480168433"/>
+<node TEXT="life" ID="ID_532839834" CREATED="1550480168764" MODIFIED="1550480170560"/>
+</node>
+</node>
+<node TEXT="travel" ID="ID_333631594" CREATED="1550478252660" MODIFIED="1550478261968">
+<node TEXT="means of transportation" ID="ID_1758029527" CREATED="1550478264100" MODIFIED="1550478268412">
+<node TEXT="on foot" ID="ID_794816691" CREATED="1550478352572" MODIFIED="1550478355843">
+<node TEXT="walk" ID="ID_1356703803" CREATED="1550478367340" MODIFIED="1550478372705"/>
+<node TEXT="run" ID="ID_308731707" CREATED="1550478372843" MODIFIED="1550478375489"/>
+</node>
+<node TEXT="animal mount" ID="ID_648894764" CREATED="1550478381436" MODIFIED="1550478388306"/>
+<node TEXT="vehicle" ID="ID_746710158" CREATED="1550478411356" MODIFIED="1550478415346">
+<node TEXT="bicycle" ID="ID_1349647221" CREATED="1550478540836" MODIFIED="1550478547777"/>
+<node TEXT="motor bike" ID="ID_1068146958" CREATED="1550478548084" MODIFIED="1550478551611"/>
+<node TEXT="car" ID="ID_158734330" CREATED="1550478552068" MODIFIED="1550478553624"/>
+<node TEXT="ship" ID="ID_1463694213" CREATED="1550478556588" MODIFIED="1550478566264"/>
+<node TEXT="airplane" ID="ID_1699050462" CREATED="1550478568340" MODIFIED="1550478573440"/>
+<node TEXT="rocket" ID="ID_1125395572" CREATED="1550478608021" MODIFIED="1550478612522"/>
+<node TEXT="spaceship" ID="ID_1843226581" CREATED="1550478612684" MODIFIED="1550478614824"/>
+</node>
+</node>
+<node TEXT="baggage" ID="ID_651544933" CREATED="1550478398604" MODIFIED="1550478403448"/>
+<node TEXT="time taken" ID="ID_788649357" CREATED="1550478781836" MODIFIED="1550478787015"/>
+<node TEXT="exhaustion" ID="ID_1216687829" CREATED="1550478787156" MODIFIED="1550478789794"/>
+<node TEXT="fuel" ID="ID_1528072932" CREATED="1550478441428" MODIFIED="1550478455097">
+<node TEXT="labour" ID="ID_635485325" CREATED="1550478520308" MODIFIED="1550478521961"/>
+<node TEXT="electricity" ID="ID_916244093" CREATED="1550478456012" MODIFIED="1550478458737"/>
+<node TEXT="gas" ID="ID_661323134" CREATED="1550478459100" MODIFIED="1550478463297"/>
+<node TEXT="hard" ID="ID_866835576" CREATED="1550478463916" MODIFIED="1550478466120"/>
+<node TEXT="etc..." ID="ID_1267609778" CREATED="1550478530452" MODIFIED="1550478531641"/>
+</node>
+</node>
+<node TEXT="rules system" ID="ID_1371799708" CREATED="1521448693769" MODIFIED="1522505867767">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_849925476" STARTINCLINATION="164;0;" ENDINCLINATION="164;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="classes" FOLDED="true" ID="ID_1173923451" CREATED="1521448709839" MODIFIED="1522508511447">
 <icon BUILTIN="messagebox_warning"/>
